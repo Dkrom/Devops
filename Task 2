@@ -1,1 +1,15 @@
+This is the question docker based 
+
+# first we install VM
+# install ubuntu 22.04
+# install docker 20
+
+the question have meaning we have to deploy the applocation which consists frontend backend or database
+
+
+## FRONTEND is  our 1 docker image with 5 container need to run
+
+## BACKEND is our 2nd application with 1 container need to run
+
+## DATABASE is the 3rd application need to run
 
