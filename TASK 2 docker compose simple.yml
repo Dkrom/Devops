@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+    image: username/mywebapp
+    ports:
+      - "8080:80"
+    environment:
+      - DEVOPS=Sandbox2021
+  java:
+    image: openjdk:latest
+  db:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+    depends_on:
+      - java
