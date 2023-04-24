@@ -19,6 +19,6 @@ so that have some way of solution
 
 ## Backend is our 2nd application with 1 container need to run
 
-## Database is your 3rd application need to run
+## Database is our 3rd application need to run
 
 and after this all these image are sinking
